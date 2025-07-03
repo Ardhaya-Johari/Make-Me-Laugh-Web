@@ -1,0 +1,72 @@
+# 😂 Make Me Laugh!
+
+Welcome to **Make Me Laugh!**, the web app that knows you're only one bad pun away from a good day. Enter your name, click a button, and boom — a joke just for you. No promises it'll be funny, but hey, we tried!
+
+## 🌟 Features
+
+- 🎭 Personalized jokes – because "random" is so last year.
+- 🎨 Stylish, fun UI with consistent theme across pages.
+- 🎉 Lightweight, fast, and 100% sass-free* (*unless the joke is about it).
+- 💬 Expandable to include categories or joke APIs.
+
+## 🛠 Tech Stack
+
+- **Frontend**: EJS (Embedded JavaScript Templates), HTML5, CSS3
+- **Backend**: Node.js, Express.js
+- **Styling**: CSS (custom styling to match the joke vibe)
+- **APIs**: Jokes sourced from a public joke API
+
+## 📦 Installation & Running Locally
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/make-me-laugh.git
+cd make-me-laugh
+
+npm install
+
+node index.js
+
+📁 Project Structure
+
+make-me-laugh/
+│
+├── public/
+│   └── style.css           # All the laughter happens in style
+│
+├── views/
+│   ├── index.ejs           # Home page with name input
+│   └── joke.ejs            # Joke display page
+│
+├── index.js                # Express server & routing logic
+├── package.json            # Project metadata & dependencies
+└── README.md               # You are here!
+
+
+💡 Future Enhancements
+Add categories: dad jokes, dark humor, knock-knock, etc.
+
+Add laugh-o-meter: let users rate the joke.
+
+Share to social media with a single click.
+
+Store user’s name and joke history (for double the embarrassment).
+
+🙌 Acknowledgements
+Inspired by our shared love of bad jokes and good web design.
+
+Thanks to public APIs for delivering the comedy.
+
+Made with 💻 & 😂 by Ardhaya
+
+
+
+
+
+
+
+
+
+
+
